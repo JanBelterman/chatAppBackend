@@ -1,0 +1,39 @@
+{
+  "name": "studdackbackend",
+  "version": "1.0.0",
+  "description": "A backend for the studdack application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "SET NODE_ENV=test&& nodemon --exec mocha -R min"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JanBelterman/studdackBackend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JanBelterman/studdackBackend/issues"
+  },
+  "homepage": "https://github.com/JanBelterman/studdackBackend#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "config": "^3.0.0",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "joi": "^14.3.0",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.15",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0"
+  }
+}

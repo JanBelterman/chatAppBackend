@@ -1,0 +1,5 @@
+{
+    "port": "PORT",
+    "mongodbUrl": "MONGO_DB_URL",
+    "jwt": "JWT_KEY"
+}
